@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 75vh;
+    width: 30%;
+    background: rgb(185, 151, 151);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img{
+    height: 70px;
+    width: 70px;
+    background: url("camel.png")no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: black;
+    border-radius: 50px;
+    position:  absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.container h1{
+    margin-top: 50px;
+}
+
+.container p{
+    margin: 20px;
+    margin-top: 100px;
+}
